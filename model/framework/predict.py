@@ -3,9 +3,11 @@ import os
 import csv
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
+print(ROOT)
 sys.path.append(os.path.join(ROOT, "molgrad"))
 
 infile = sys.argv[1]
+print(infile)
 outfile = sys.argv[2]
 checkpoints_dir = sys.argv[3]
 
