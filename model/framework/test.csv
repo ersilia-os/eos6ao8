@@ -1,21 +1,10 @@
-drugs,smiles,can_smiles
-abacavir,Nc1nc(NC2CC2)c3ncn([C@@H]4C[C@H](CO)C=C4)c3n1,Nc1nc(NC2CC2)c2ncn([C@H]3C=C[C@@H](CO)C3)c2n1
-abiraterone,C[C@]12CC[C@H](O)CC1=CC[C@@H]3[C@@H]2CC[C@@]4(C)[C@H]3CC=C4c5cccnc5,C[C@]12CC[C@H]3[C@@H](CC=C4C[C@@H](O)CC[C@@]43C)[C@@H]1CC=C2c1cccnc1
-acetazolamide,CC(=O)Nc1sc(nn1)[S](N)(=O)=O,CC(=O)Nc1nnc(S(N)(=O)=O)s1
-acetic acid,CC(O)=O,CC(=O)O
-acetylcysteine,CC(=O)N[C@@H](CS)C(O)=O,CC(=O)N[C@@H](CS)C(=O)O
-acetylsalicylic acid,CC(=O)Oc1ccccc1C(O)=O,CC(=O)Oc1ccccc1C(=O)O
-aciclovir,NC1=NC(=O)c2ncn(COCCO)c2N1,Nc1nc(=O)c2ncn(COCCO)c2[nH]1
-aclidinium,OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1,O=C(O[C@H]1C[N+]2(CCCOc3ccccc3)CCC1CC2)C(O)(c1cccs1)c1cccs1
-afatinib,CN(C)C\C=C\C(=O)NC1=C(O[C@H]2CCOC2)C=C2N=CN=C(NC3=CC(Cl)=C(F)C=C3)C2=C1,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]1CCOC1
-albendazole,CCCSc1ccc2nc(NC(=O)OC)[nH]c2c1,CCCSc1ccc2nc(NC(=O)OC)[nH]c2c1
-allopurinol,O=C1N=CN=C2NNC=C12,O=c1ncnc2[nH][nH]cc1-2
-amidotrizoate,CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(O)=O)c1I,CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(=O)O)c1I
-amikacin,NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O,NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O
-amiloride,NC(N)=NC(=O)c1nc(Cl)c(N)nc1N,NC(N)=NC(=O)c1nc(Cl)c(N)nc1N
-amiodarone,CCCCc1oc2ccccc2c1C(=O)c3cc(I)c(OCCN(CC)CC)c(I)c3,CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1
-amitriptyline,CN(C)CCC=C1c2ccccc2CCc3ccccc13,CN(C)CCC=C1c2ccccc2CCc2ccccc21
-amlodipine,CCOC(=O)C1=C(COCCN)NC(=C(C1c2ccccc2Cl)C(=O)OC)C,CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl
-amodiaquine,CCN(CC)Cc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O,CCN(CC)Cc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O
-amoxicillin,O.O.O.CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(O)=O,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C(=O)N2[C@H]1C(=O)O.O.O.O
-amphotericin B,C[C@H]1O[C@@H](O[C@@H]\2C[C@@H]3O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@@H](C)[C@H](C)[C@H](O)[C@@H](C)\C=C/C=C\C=C/C=C\C=C/C=C\C=C2)C[C@H](O)[C@H]3C(O)=O)[C@@H](O)[C@@H](N)[C@@H]1O,C[C@@H]1OC(=O)C[C@H](O)C[C@H](O)CC[C@@H](O)[C@H](O)C[C@H](O)C[C@]2(O)C[C@H](O)[C@@H](C(=O)O)[C@H](C[C@@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N)[C@@H]3O)/C=C\C=C/C=C\C=C/C=C\C=C/C=C\[C@H](C)[C@@H](O)[C@H]1C)O2
+smiles
+Nc1nc(NC2CC2)c3ncn([C@@H]4C[C@H](CO)C=C4)c3n1
+C[C@]12CC[C@H](O)CC1=CC[C@@H]3[C@@H]2CC[C@@]4(C)[C@H]3CC=C4c5cccnc5
+CC(=O)Nc1sc(nn1)[S](N)(=O)=O
+CC(O)=O
+CC(=O)N[C@@H](CS)C(O)=O
+CC(=O)Oc1ccccc1C(O)=O
+NC1=NC(=O)c2ncn(COCCO)c2N1
+OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1
+CN(C)C\C=C\C(=O)NC1=C(O[C@H]2CCOC2)C=C2N=CN=C(NC3=CC(Cl)=C(F)C=C3)C2=C1
