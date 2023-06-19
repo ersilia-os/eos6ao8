@@ -45,10 +45,24 @@ jobs:
           python place_a_dockerfile_in_current_eos_repo.py $REPO_NAME
                                           
       - name: Build and push
+        id: build
         uses: docker/build-push-action@v2
         with:
           context: .
           platforms: linux/amd64,linux/arm64
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ersiliaos/${{ github.event.repository.name }}:latest
+
+      - name: Check build status
+        if: ${{ job.status != 'success' && job.outputs.build }}
+        run: echo "::set-output name=build-failed::true"
+
+      - name: Build only for Linux/amd64
+        if: steps.build.outputs.build-failed
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ersiliaos/${{ github.event.repository.name }}:latest
           
