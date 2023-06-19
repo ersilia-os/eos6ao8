@@ -55,7 +55,7 @@ jobs:
           tags: ersiliaos/${{ github.event.repository.name }}:latest
 
       - name: Build only for Linux/amd64
-        if: ${{ failure() }}
+        if: failure()
         uses: docker/build-push-action@v2
         with:
           context: .
