@@ -45,7 +45,7 @@ jobs:
           python place_a_dockerfile_in_current_eos_repo.py $REPO_NAME
                                           
       - name: Build and push
-        id: build
+        id: buildMultiple
         continue-on-error: true
         uses: docker/build-push-action@v2
         with:
@@ -55,7 +55,8 @@ jobs:
           tags: ersiliaos/${{ github.event.repository.name }}:latest
 
       - name: Build only for Linux/amd64
-        if: failure()
+        id: buildSingle
+        if: failure() && steps.buildMultiple.outcome == 'failure'
         uses: docker/build-push-action@v2
         with:
           context: .
