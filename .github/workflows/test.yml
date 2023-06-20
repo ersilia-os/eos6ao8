@@ -107,5 +107,16 @@ jobs:
           python3 update_readme_from_airtable.py $MODEL_ID .
           rm update_readme_from_airtable.py
           less README.md
+
+      - name: Commit and push changes done to the README file
+        uses: actions-js/push@156f2b10c3aa000c44dbe75ea7018f32ae999772 # pin@v1.4
+        with:
+          author_name: "ersilia-bot"
+          author_email: "ersilia-bot@users.noreply.github.com"
+          message: "updating readme [skip ci]"
+          repository: "ersilia-os/${{ github.event.repository.name }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          amend: true
+          force: true
         
           
