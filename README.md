@@ -25,7 +25,8 @@ By combining a Message-Passing Graph Neural Network (MPGNN) and a Forward fully 
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos6ao8)
-* [DockerHub](https://hub.docker.com/r/ersiliaos/eos6ao8) (AMD64, ARM64)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6ao8.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos6ao8) (AMD64)
 
 ## Citation
 
