@@ -42,7 +42,7 @@ jobs:
           with open('arch.txt', 'r') as f:
              arch = f.read().rstrip()
              arch = arch.split(',')
-          data['DockerHub'] = 'https://hub.docker.com/r/ersiliaos/{0}'.format(data["Identifier"])
+          data['DockerHub'] = 'https://hub.docker.com/r/ersiliaos/{0}'.format(data['Identifier'])
           data['Docker Architecture'] = arch
           with open('metadata.json', 'w') as f:
              json.dump(data, f, indent=4)
