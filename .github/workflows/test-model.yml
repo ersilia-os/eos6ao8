@@ -37,8 +37,10 @@ jobs:
         run: echo $CONDA/bin >> $GITHUB_PATH
       
       - name: Source conda
-        run: source $CONDA/etc/profile.d/conda.sh
-
+        run: | 
+          source $CONDA/etc/profile.d/conda.sh
+          conda config --set solver libmamba
+          
       - name: Set Python to 3.10.10
         run:
          conda install -y python=3.10.10 
