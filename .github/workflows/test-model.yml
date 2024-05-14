@@ -39,6 +39,7 @@ jobs:
       - name: Source conda
         run: | 
           source $CONDA/etc/profile.d/conda.sh
+          conda install -n base conda-libmamba-solver
           conda config --set solver libmamba
           
       - name: Set Python to 3.10.10
