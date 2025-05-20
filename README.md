@@ -41,7 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `15`
 - **Environment Size (Mb):** `2418`
+- **Image Size (Mb):** `2379.4`
 
+**Computational Performance (seconds):**
+- 10 inputs: `33.49`
+- 100 inputs: `28.82`
+- 10000 inputs: `783.4`
 
 ### References
 - **Source Code**: [https://github.com/josejimenezluna/molgrad/](https://github.com/josejimenezluna/molgrad/)
