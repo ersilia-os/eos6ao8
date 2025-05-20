@@ -12,7 +12,6 @@ outfile = sys.argv[2]
 print(outfile)
 #checkpoints_dir = sys.argv[3]
 
-import torch
 from molgrad.net import MPNNPredictor
 from molgrad.train import DEVICE
 from rdkit import Chem

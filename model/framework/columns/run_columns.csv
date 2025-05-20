@@ -1,0 +1,2 @@
+name,type,direction,description
+fraction_bound,float,high,Fraction bound to plasma protein
