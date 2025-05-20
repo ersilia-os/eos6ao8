@@ -41,9 +41,13 @@
     "Incorporation Date": "2021-10-19",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6ao8.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6ao8",
-    "Docker Architecture": [
-        "AMD64"
-    ],
+    "Docker Architecture": "AMD64",
     "Model Size": 15.0,
-    "Environment Size": 2418.0
+    "Environment Size": 2418.0,
+    "Image Size": 2379.4,
+    "Computational Performance 1": 33.49,
+    "Computational Performance 2": 23.83,
+    "Computational Performance 3": 28.82,
+    "Computational Performance 4": 176.85,
+    "Computational Performance 5": 783.4
 }
