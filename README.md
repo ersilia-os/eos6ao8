@@ -2,7 +2,7 @@
 
 By combining a Message-Passing Graph Neural Network (MPGNN) and a Forward fully connected Neural Network (FNN) with an integrated gradients explainable artificial intelligence (XAI) method, the authors developed MolGrad and tested it on a number of ADME predictive tasks. MolGrad incorporates explainable features to facilitate interpretation of the predictions. In this model, they train MolGrad with data from a Plasma-protein binding assay (PPB) to predict the fraction bound in plasma of small molecules.
 
-This model was incorporated on 2021-10-19.Last packaged on 2025-10-13.
+This model was incorporated on 2021-10-19.Last packaged on 2026-03-20.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `15`
 - **Environment Size (Mb):** `2415`
-- **Image Size (Mb):** `2396.62`
+- **Image Size (Mb):** `2399.24`
 
 **Computational Performance (seconds):**
-- 10 inputs: `28.97`
-- 100 inputs: `20.45`
-- 10000 inputs: `613.57`
+- 10 inputs: `29.62`
+- 100 inputs: `21.34`
+- 10000 inputs: `205.72`
 
 ### References
 - **Source Code**: [https://github.com/josejimenezluna/molgrad/](https://github.com/josejimenezluna/molgrad/)
