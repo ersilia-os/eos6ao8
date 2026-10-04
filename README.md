@@ -1,6 +1,6 @@
 # Coloring molecules for plasma protein binding prediction
 
-By combining a Message-Passing Graph Neural Network (MPGNN) and a Forward fully connected Neural Network (FNN) with an integrated gradients explainable artificial intelligence (XAI) method, the authors developed MolGrad and tested it on a number of ADME predictive tasks. MolGrad incorporates explainable features to facilitate interpretation of the predictions. In this model, they train MolGrad with data from a Plasma-protein binding assay (PPB) to predict the fraction bound in plasma of small molecules.
+Predicts the fraction of a compound bound to plasma proteins, which governs how much drug circulates free and available to act. The endpoint was assembled from sources covering 4,119 drugs and modelled with a message-passing graph neural network, coupled with integrated gradients so that atoms contributing most to the prediction can be highlighted. Combining measurements from several collections introduces assay heterogeneity, and the attribution explains the network's reasoning without validating the underlying value.
 
 This model was incorporated on 2021-10-19.Last packaged on 2026-03-20.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2026-03-20.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Fraction (%) bound in plasma
+- **Interpretation:** Predicted fraction of compound bound to plasma proteins, from 0 to 1.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
