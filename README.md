@@ -1,6 +1,6 @@
 # Coloring molecules for plasma protein binding prediction
 
-Predicts the fraction of a compound bound to plasma proteins, which governs how much drug circulates free and available to act. The endpoint was assembled from sources covering 4,119 drugs and modelled with a message-passing graph neural network, coupled with integrated gradients so that atoms contributing most to the prediction can be highlighted. Combining measurements from several collections introduces assay heterogeneity, and the attribution explains the network's reasoning without validating the underlying value.
+Predicts how strongly a compound is held by plasma proteins such as albumin, which sets how much drug circulates free and available to act. Training data were pooled from six studies covering 4,119 drugs, and the fraction bound is reported on the percentage scale used in those sources. A message-passing graph neural network is combined with a fully connected branch over computed physicochemical properties, with integrated gradients highlighting the atoms that drive a prediction. Pooling assays from several collections introduces heterogeneity that the attribution does not resolve.
 
 This model was incorporated on 2021-10-19.Last packaged on 2026-03-20.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-10-19.Last packaged on 2026-03-20.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Predicted fraction of compound bound to plasma proteins, from 0 to 1.
+- **Interpretation:** Predicted percentage of compound bound to plasma proteins, on a scale from 0 to 100.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
