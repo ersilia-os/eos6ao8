@@ -2,7 +2,8 @@
 
 Predicts how strongly a compound is held by plasma proteins such as albumin, which sets how much drug circulates free and available to act. Training data were pooled from six studies covering 4,119 drugs, and the fraction bound is reported on the percentage scale used in those sources. A message-passing graph neural network is combined with a fully connected branch over computed physicochemical properties, with integrated gradients highlighting the atoms that drive a prediction. Pooling assays from several collections introduces heterogeneity that the attribution does not resolve.
 
-This model was incorporated on 2021-10-19.Last packaged on 2026-03-20.
+This model was incorporated on 2021-10-19.
+Last packaged on 2026-03-20.
 
 ## Information
 ### Identifiers
