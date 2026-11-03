@@ -3,7 +3,7 @@
 Predicts how strongly a compound is held by plasma proteins such as albumin, which sets how much drug circulates free and available to act. Training data were pooled from six studies covering 4,119 drugs, and the fraction bound is reported on the percentage scale used in those sources. A message-passing graph neural network is combined with a fully connected branch over computed physicochemical properties, with integrated gradients highlighting the atoms that drive a prediction. Pooling assays from several collections introduces heterogeneity that the attribution does not resolve.
 
 This model was incorporated on 2021-10-19.
-Last packaged on 2026-03-20.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -42,12 +42,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `15`
 - **Environment Size (Mb):** `2414`
-- **Image Size (Mb):** `2399.24`
+- **Image Size (Mb):** `2330.42`
 
 **Computational Performance (seconds):**
-- 10 inputs: `29.62`
-- 100 inputs: `21.34`
-- 10000 inputs: `205.72`
+- 10 inputs: `24.06`
+- 100 inputs: `15.55`
+- 10000 inputs: `149.34`
 
 ### References
 - **Source Code**: [https://github.com/josejimenezluna/molgrad/](https://github.com/josejimenezluna/molgrad/)
